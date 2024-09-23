@@ -78,6 +78,7 @@ header a {
   color: black;
   font-weight: bold;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  text-decoration: none !important;
 }
 
 .category-world {
@@ -127,7 +128,6 @@ header a {
 @media only screen and (max-width: 991px) {
   .home {
     color: rgb(60, 60, 60);
-    text-decoration: none !important;
   }
 
   .home:hover {
